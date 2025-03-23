@@ -1,8 +1,9 @@
+import LoginButton from "./components/LoginButton";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="">Hello world!</h1>
-    </div>
+    <section>
+      <LoginButton />
+    </section>
   );
 }
